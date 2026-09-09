@@ -1,0 +1,14 @@
+import time, datetime
+#from datetime import timedelta
+
+
+try:
+    while True:
+        s = datetime.datetime.now()
+        ss = s.strftime("%H:%M:%S")
+    
+        print("time: ", ss, end="\r", flush=True)
+        
+        time.sleep(1)
+except KeyboardInterrupt:
+    exit()
