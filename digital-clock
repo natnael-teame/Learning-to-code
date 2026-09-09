@@ -1,6 +1,4 @@
 import time, datetime
-#from datetime import timedelta
-
 
 try:
     while True:
